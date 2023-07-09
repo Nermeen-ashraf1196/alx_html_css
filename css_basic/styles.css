@@ -1,6 +1,6 @@
 body, main {
     display: flex;
-    background-color : indigo;
+    background-color : rgb(180, 221, 228);
 
   }
   body {
@@ -12,11 +12,11 @@ body, main {
   }
   article {
     flex: 2;
-    background-color: rosybrown;
+    background-color: rgb(179, 119, 119);
   }
    aside {
     flex: 1;
-    background-color: cadetblue;
+    background-color: rgb(131, 100, 143);
   }
    article, aside {
     overflow-y: auto;
