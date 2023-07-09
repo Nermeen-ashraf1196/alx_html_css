@@ -1,6 +1,6 @@
 body, main {
     display: flex;
-    background-color : blueviolet;
+    background-color : indigo;
 
   }
   body {
@@ -12,7 +12,7 @@ body, main {
   }
   article {
     flex: 2;
-    background-color: aqua;
+    background-color: rosybrown;
   }
    aside {
     flex: 1;
