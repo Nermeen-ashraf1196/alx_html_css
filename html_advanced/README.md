@@ -14,4 +14,4 @@
         What is an element / tag
         What is an attribute
         What the purpose of each HTML tag <p>
- ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")        
+<img src="my image.jpg" alt="Alt text" title="Harry Potter"> 
