@@ -22,4 +22,4 @@
                 <li>What are Box properties in CSS</li>
                 <li>How does the browser load a webpage</li>
         </ul>
-<img src="my image.jpg" alt="Alt text" title="Harry Potter"> 
+<img src="images/my image.jpg" alt="Hogwarts" title="Harry Potter"> 
