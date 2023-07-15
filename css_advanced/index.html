@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
   <meta charset="UTF-8">
-  <title> ALX_FIGMA project</title>
+  <title>Harry Potter</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--header-->
   <header>
-    <a href="file:///C:/Users/Nermeen%20Ashrad/Desktop/ALX/intro/github/alx_html_css/alx_html_css/html_basic/index.html"> <img src="images/header.jpg" alt="Harry Potter logo"></a>
-    <nav>
+    <div class="header-div-logo">
+      <a href="file:///C:/Users/Nermeen%20Ashrad/Desktop/ALX/intro/github/alx_html_css/alx_html_css/html_basic/index.html">
+        <img src="images/header.png" alt="Harry Potter logo"></a>
+    </div>
+    <nav class="header-nav-link">
       <a href="https://www.wizardingworld.com/quiz">QUIZZES</a>
       <a href="https://my.wizardingworld.com/sorting-hat">SORTING</a>
       <a href="https://my.wizardingworld.com/login">LOG IN</a>
     </nav>
     <h3>Rate us</h3>
-    <div class="container"> 
-      <div class="rating">
-        <input type="radio" name="clr1" style="--c:#ff9933">
-        <input type="radio" name="clr1" style="--c:#ff9933">
-        <input type="radio" name="clr1" style="--c:#ff9933">
-        <input type="radio" name="clr1" style="--c:#ff9933">
-        <input type="radio" name="clr1" style="--c:#ff9933">
+    <div class="ratings-wrapper"> 
+      <div data-productid="39" class="rating">
+        <span data-rating="5">&#9733</span>
+        <span data-rating="4">&#9733</span>
+        <span data-rating="3">&#9733</span>
+        <span data-rating="2">&#9733</span>
+        <span data-rating="1">&#9733</span>
       </div>
+    </div>
+    <div>
       <button>Sign in</button>
       <button>Log in</button>
     </div>
@@ -200,23 +206,21 @@
       </div>
   </section>
 </main>
-  <!-- footer section-->
+  <!-- footer -->
   <footer>
     <div>
-        <div class="global-block">
-          <div class="row-block">
-            <img src="images/footer.jpg" alt="Footer Image">
-            <div>
-                <p>Harry Potter</p>
-              <div>
-                <a href="https://www.facebook.com/"> <img src="images/facebook.png" alt="facebook icon" width="50" height="50"/> </a>
-                <a href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter icon" width="50" height="50"></a>
-                <a href="https://www.instagram.com/"><img src="images/instagram-icon-png-6.jpg" alt="instagram icon" width="50" height="50"></a>
-              </div>
-            </div>
-          </div>
+        <div class="logo-div">
+          <img src="images/footer.png" alt="" class="logo" width="150">
         </div>
-      </div>
+        <div class="logo">
+          <img src="images/footer 2.png" alt="">
+        </div>
+        <div class="social-logo">
+          <a href="https://www.facebook.com/"> <img src="images/facebook.png" alt="facebook"> </a>
+          <a href="https://www.twitter.com/"> <img src="images/twitter.png" alt="twitter" > </a>
+          <a href="https://www.instagram.com/"> <img src="images/instagram.jpg" alt=""> </a>
+        </div>
+    </div>
   </footer>
 </body>
 </html>
